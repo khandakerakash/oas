@@ -1753,13 +1753,46 @@ nav.pager-wrap .pagination {
 /*=================================================================*/
 /* [ 12. Scroll Header Style ]                                     */
 /*=================================================================*/
+.header,
+.header-logo img,
+.header-search,
+.header-auction-wrap {
+    transition: all 0.4s;
+}
+
 .goToTop {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
+    /*-webkit-box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .05);*/
     /*box-shadow: 0 -3px 12px 0 #000;*/
 
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .08);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .08);
+}
+
+.header.goToTop .header-logo img {
+    height: 45px;
+    margin-top: 10px;
+}
+
+.header.goToTop .header-search {
+
+}
+
+.header.goToTop .header-search .header_search_form_container {
+    height: 40px;
+}
+
+.header.goToTop .header-auction-wrap {
+    margin-top: 10px;
+}
+
+.header.goToTop .top-nav {
+    margin-top: -15px;
+}
+
+.header.goToTop .top-nav li a {
+    font-size: 14px;
 }
