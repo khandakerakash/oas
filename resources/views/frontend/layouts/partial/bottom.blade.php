@@ -6,7 +6,7 @@
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="{{ asset('frontend/vendors/jQuery/jquery-3.4.1.min.js') }}"></script>
-<script src="{{ asset('frontend/vendors/jQuery/PopperJs/popper.min.js') }}"></script>
+<script src="{{ asset('frontend/vendors/PopperJs/popper.min.js') }}"></script>
 <script src="{{ asset('frontend/vendors/bootstrap-4.3.1/js/bootstrap.min.js') }}"></script>
 
 <!-- Flickity JS -->

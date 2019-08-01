@@ -1260,6 +1260,11 @@ nav.pager-wrap .pagination {
 {
     color: #000000;
 }
+
+.footer .logo_container .logo a img {
+    height: 60px;
+}
+
 .footer_title
 {
     font-size: 14px;
@@ -1741,11 +1746,11 @@ nav.pager-wrap .pagination {
     transition: all 0.4s;
 }
 
-.other-page-cat-wrap {
+.cat_menu_container {
     z-index: 40;
 }
 
-.cat-menu-on-scroll-wrap .dropdown-menu {
+.cat_menu_container .dropdown-menu {
     padding-left: 10px;
 }
 
@@ -1790,9 +1795,34 @@ nav.pager-wrap .pagination {
 }
 
 .header.goToTop .top-nav {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 .header.goToTop .top-nav li a {
     font-size: 14px;
+}
+
+.header.goToTop .cat_menu_container {
+    margin-top: -12px;
+}
+
+.header.goToTop .cat-menu-other-page {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.cat_menu_container {
+    display: none;
+}
+
+.cat_menu_container_other-pages {
+    display: block;
+}
+
+.view-only-scroll {
+    display: block
+}
+
+.header.goToTop .cat_menu_container {
+    display: block;
 }

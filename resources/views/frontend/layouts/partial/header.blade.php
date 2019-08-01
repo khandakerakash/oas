@@ -75,11 +75,91 @@
 
         <div class="row">
             <div class="col-lg-2 col-md-3">
-                <div class="cat-menu-on-scroll-wrap view-only-scroll">
-                    <ul class="">
-                        <li></li>
-                    </ul>
+                <!-- Category Menu In Scroll Start -->
+                <div class="cat_menu_container {{Request::is('/')?'cat_menu-home_logic':'cat_menu_container_other-pages'}}">
+                    <div class="dropdown">
+                        <button class="cat-menu-other-page dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-list-ul"></i> <span>Categories</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <ul class="other-page-cat-wrap">
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/sun-umbrella.png') }}"> &nbsp;
+                                        <span>Summer Splash</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/tree.png') }}"> &nbsp;
+                                        <span>Winter Hunter</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/woman.png') }}"> &nbsp;
+                                        <span>Women's World</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/man.png') }}"> &nbsp;
+                                        <span>Men's Club</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/teddy-bear.png') }}"> &nbsp;
+                                        <span>Kid's Zone</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/salon.png') }}"> &nbsp;
+                                        <span>Health &amp; Beauty</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/devices.png') }}"> &nbsp;
+                                        <span>Mobile &amp; Gadget</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/tower.png') }}"> &nbsp;
+                                        <span>Electronics</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/home.png') }}"> &nbsp;
+                                        <span>Home &amp; Living</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/trophy.png') }}"> &nbsp;
+                                        <span>Sports &amp; outdoor</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/mountain-bike.png') }}"> &nbsp;
+                                        <span>Biking &amp; Riding</span>
+                                    </a>
+                                </li>
+                                <li class="home-cat-fixed-item">
+                                    <a href="#">
+                                        <img src="{{ asset('frontend/img/category-icons/book.png') }}"> &nbsp;
+                                        <span>Books &amp; Gallery</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <!-- Category Menu In Scroll End -->
             </div>
 
             <div class="col-lg-10 col-md-9">
