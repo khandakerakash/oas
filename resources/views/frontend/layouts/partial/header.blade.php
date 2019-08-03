@@ -166,10 +166,10 @@
                 <div class="top-nav">
                     <input type="checkbox" id="menu-btn" class="menu-btn"> <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
                     <ul class="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Best Bid</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><a href="{{ url('/best-bid') }}">Best Bid</a></li>
+                        <li><a href="{{ url('/products') }}">Products</a></li>
+                        <li><a href="{{ url('/contact') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>

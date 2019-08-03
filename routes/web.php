@@ -23,3 +23,15 @@ Route::get('/', function () {
 Route::get('/bid-product', function () {
     return view('frontend.pages.bid-product');
 });
+
+Route::get('/best-bid', function () {
+    return view('frontend.pages.best-bid');
+});
+
+Route::get('/products', function () {
+    return view('frontend.pages.products');
+});
+
+Route::get('/contact', function () {
+    return view('frontend.pages.contact');
+});

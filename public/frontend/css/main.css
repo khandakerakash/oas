@@ -1791,9 +1791,54 @@ nav.pager-wrap .pagination {
     padding-left: 10px;
 }
 
+/*=================================================================*/
+/* [ 12. Best Bidding Product Section ]                            */
+/*=================================================================*/
+.best-bidding-products {
+    padding: 50px 0;
+    background-color: #F5F3F3;
+}
+
+.best-product-item {
+    padding: 15px 10px;
+    background-color: #FFFFFF;
+}
+
+.bidding-price {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: default !important;
+}
+
+.bidding-price span {
+    color: #0e8ce4;
+}
+
+.gotobid .gotobid-btn {
+    width: 100%;
+    padding: 5px 15px;
+    background: #0e8ce4;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.gotobid .gotobid-btn:hover {
+    color: #FFFFFF;
+    background: rgba(14, 140, 228, 0.8);
+}
 
 /*=================================================================*/
-/* [ 12. Scroll Header Style ]                                     */
+/* [ 13. Scroll Header Style ]                                     */
 /*=================================================================*/
 .header,
 .header-logo img,
@@ -1864,9 +1909,135 @@ nav.pager-wrap .pagination {
     display: block;
 }
 
+/*=================================================================*/
+/* [ 14. Contact Page Style ]                                      */
+/*=================================================================*/
+
+.contact {
+    width: 100%;
+}
+
+.contact-headings h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.contact-headings h2 span:nth-child(1) {
+    color: #65C3AD;
+    font-size: 36px;
+}
+
+.contact-headings h2 span:nth-child(2) {
+    color: #EA9078;
+    font-size: 36px;
+}
+
+.contact-headings h2 span:nth-child(3) {
+    font-size: 14px;
+    margin-left: -2px;
+    color: rgba(234, 144, 120, 0.8);
+}
+
+.contact-headings p {
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #777;
+}
+
+.contact_form-wrapper,
+.bella-address {
+    background: #fff !important;
+    position: relative;
+    -webkit-box-shadow: 0 40px 45px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 40px 45px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1366px) {
+    .contact_form-wrapper,
+    .bella-address {
+        height: 350px;
+    }
+}
+
+.contact_form-wrapper {
+    padding: 2rem;
+}
+
+@media (min-width: 300px) and (max-width: 460px) {
+    .contact_form-wrapper {
+        padding: 1rem 2rem 3rem 2rem;
+    }
+}
+
+
+.contact_form-wrapper .form__group:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.contact_form-wrapper .form__input {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    color: #3f3f46;
+    float: left;
+    font-size: 14px;
+    margin: 15px auto;
+    padding: 25px;
+    width: 100%;
+}
+
+.contact_form-wrapper .form__input:focus {
+    overflow: hidden !important;
+    outline: 0 !important;
+}
+
+.contact_form-wrapper .form__input-textarea {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    color: #3f3f46;
+    float: left;
+    font-size: 14px;
+    margin: 15px auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact_form-wrapper .form__input-textarea:focus {
+    overflow: hidden !important;
+    outline: 0 !important;
+}
+
+.contact_form-wrapper .form .btn-submit {
+    color: #65C3AD;
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid rgba(101, 195, 171, 0.4);
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+}
+
+.contact_form-wrapper .form .btn-submit:hover {
+    color: #fff;
+    background-color: #65C3AD;
+}
+
+.contact .form-control:focus {
+    webkit-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
 
 /*=================================================================*/
-/* [ 13. Site Preloader Style ]                                    */
+/* [ 15. Site Preloader Style ]                                    */
 /*=================================================================*/
 #cover {
     background: url(../img/pre-loader/loader.gif) no-repeat scroll center center #fff;
@@ -1874,4 +2045,24 @@ nav.pager-wrap .pagination {
     height: 100%;
     width: 100%;
     z-index: 9999999;
+}
+
+/*=================================================================*/
+/* [ 16. Utility Style ]                                           */
+/*=================================================================*/
+.pages-title {
+    padding: 50px 0 30px 0;
+    background-color: #EBDDD4;
+}
+
+.pages-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.pages-content {
+    padding: 50px 0;
+    background-color: #F5F3F3;
 }
