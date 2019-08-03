@@ -39,3 +39,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
 </head>
 <body id="page-top">
+
+<!-- PRELOADER START -->
+<div id="cover"></div>
+<!-- PRELOADER END -->

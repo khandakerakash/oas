@@ -1,8 +1,13 @@
-<!-- Scrollup Section Start -->
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up">
-    <a style="text-align: center;"><i></i></a>
-</div>
-<!-- Scrollup Section End -->
+{{--<!-- Scrollup Section Start -->--}}
+{{--<div id="scrollToTop" class="scrollToTop mbr-arrow-up">--}}
+{{--    <a style="text-align: center;"><i></i></a>--}}
+{{--</div>--}}
+{{--<!-- Scrollup Section End -->--}}
+
+<!-- BACKTO TOP START -->
+<a href="#" class="scrollup" style="display: block;"><i class="fa fa-angle-double-up"></i></a>
+<!-- BACKTO TOP END -->
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="{{ asset('frontend/vendors/jQuery/jquery-3.4.1.min.js') }}"></script>

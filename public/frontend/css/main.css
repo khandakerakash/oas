@@ -1441,6 +1441,43 @@ nav.pager-wrap .pagination {
     transform: rotate(135deg);
 }
 
+.scrollup {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: linear-gradient(to right bottom, #39459b, #0f97d5);
+    color: #fff;
+    background-position: center;
+    z-index: 999;
+    display: none;
+    text-align: center;
+    transition: all .4s ease;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .scrollup {
+        bottom: 30px;
+        right: 10px;
+    }
+}
+
+.scrollup:hover {
+    color: #fff !important;
+}
+
+.scrollup .fas {
+    transition: all .4s ease;
+}
+
+.scrollup:hover .fas {
+    font-size: 1.6rem;
+    color: #fff !important;
+}
+
 
 /*=================================================================*/
 /* [ 10. Single Product Section ]                                  */
@@ -1825,4 +1862,16 @@ nav.pager-wrap .pagination {
 
 .header.goToTop .cat_menu_container {
     display: block;
+}
+
+
+/*=================================================================*/
+/* [ 13. Site Preloader Style ]                                    */
+/*=================================================================*/
+#cover {
+    background: url(../img/pre-loader/loader.gif) no-repeat scroll center center #fff;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
 }

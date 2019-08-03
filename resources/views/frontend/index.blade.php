@@ -237,19 +237,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/1.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -263,19 +263,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/2.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -289,19 +289,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/3.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -315,19 +315,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/4.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -341,19 +341,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/5.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -367,19 +367,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/6.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -393,19 +393,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/7.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -419,19 +419,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/8.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -445,19 +445,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="{{ asset('frontend/img/products/9.png') }}" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -471,19 +471,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="assets/img/product-img/1.jpg" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
@@ -497,19 +497,19 @@
                 <div class="border_active active"></div>
                 <div class="product-item d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="product-image d-flex flex-column align-items-center justify-content-center">
-                        <img class="img-fluid" src="assets/img/product-img/1.jpg" alt="Product Image">
+                        <img class="img-fluid" src="{{ asset('frontend/img/products/yamah.png') }}" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <div class="product-price">
-                            <span>Initial: ৳ 500</span>
+                            <span>Initial: ৳ 495000</span>
                         </div>
                         <div class="product-name">
                             <div>
-                                <a href="#">Astro M2 Black</a>
+                                <a href="#">Yamaha YZF-R15</a>
                             </div>
                         </div>
                         <div class="product-extras">
-                            <a href="#" class="product-view-btn">View to Bid</a>
+                            <a href="{{ url('/bid-product') }}" class="product-view-btn" target="_blank">View to Bid</a>
                         </div>
 
                         <ul class="product-marks">
